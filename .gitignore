@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+.env
+.DS_Store
+
+# Build output
+dist/
+build/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Optional npm cache
+.npm/
+
+# IDE files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

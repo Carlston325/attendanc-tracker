@@ -1,0 +1,15 @@
+{
+  "name": "attendance-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "carlston",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pg": "^8.21.0"
+  }
+}
