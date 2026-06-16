@@ -11,13 +11,13 @@ import {
 async function updatePageTitle() {
   try {
     const loggedInUser = localStorage.getItem("loggedInUser");
-    
+
     if (!loggedInUser) {
       // Redirect to login page if no user is logged in
-      window.location.href = "./login.html";
+      window.location.href = "./pages/login.html";
       return;
     }
-    
+
     // Show welcome message
     const user = JSON.parse(loggedInUser);
     document.title = `Attendance Tracker | Welcome ${user.name}`;
